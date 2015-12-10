@@ -1,5 +1,5 @@
 <launch>
-    <arg name="map_file" default="$(find goldorak_navigation)/map/test_map.yaml"/>
+    <arg name="map_file" default="$(find goldorak_navigation)/map/eurobot.yaml"/>
 
     <node name="map_server"
           pkg="map_server"
